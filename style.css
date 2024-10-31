@@ -34,7 +34,6 @@ a {
 nav{
     background-color: #1F2937;
     padding: 16px 24px;
-    position: relative;
 }
 
 .nav-wrapper {
@@ -108,5 +107,64 @@ h1 {
 /* Information section */
 
 .information {
-    padding: 48px 24px;
+    padding: 48px 24px 80px 24px;
+}
+
+.information-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+.information h2 {
+    font-size: 36px;
+}
+
+.information h2,
+.card {
+    text-align: center;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.card {
+    width: 150px;
+}
+
+.card-image {
+    width: 100%;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+/* Quote section */
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px 24px;
+}
+
+.quote-wrapper {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-wrapper p:first-child {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 200;
+    line-height: 1.2em;
+}
+
+.quote_name-align-right {
+    align-self: right;
 }
