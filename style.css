@@ -152,7 +152,7 @@ h1 {
 }
 
 .quote-wrapper {
-    width: 800px;
+    /* width: 800px; */
     display: flex;
     flex-direction: column;
 }
@@ -166,5 +166,5 @@ h1 {
 }
 
 .quote_name-align-right {
-    align-self: right;
+    align-self: flex-end;
 }
